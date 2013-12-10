@@ -1,0 +1,431 @@
+$peepal-yellow: #cccc00;
+$peepal-green: #009999;
+$peepal-darkgrey: #333333;
+$peepal-lightgrey: #cccccc;
+$peepal-middlegrey: #999999;
+
+$peepal-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+@mixin margin-centered {
+	margin-right: auto; 
+	margin-left: auto;
+}
+@mixin grey-gradient {
+	background: -webkit-linear-gradient($peepal-lightgrey, $peepal-middlegrey); /* For Safari */
+	background: -o-linear-gradient($peepal-lightgrey, $peepal-middlegrey); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient($peepal-lightgrey, $peepal-middlegrey); /* For Firefox 3.6 to 15 */
+	background: linear-gradient($peepal-lightgrey, $peepal-middlegrey); /* Standard syntax (must be last) */
+}
+@mixin center-upper-font {
+	@include margin-centered;
+	font-family: $peepal-font;
+	text-align: center;
+	text-transform: uppercase;	
+}
+@mixin bold-center-upper-font {
+	@include center-upper-font;
+	font-weight: bold;
+}
+@mixin helping-pee-cup {
+	background: url(assets/img/Peepals_helping_pee.png);
+  -webkit-mask-image: url(assets/img/Peepals_helping_pee_mask.png);
+	-o-mask-image: url(assets/img/Peepals_helping_pee_mask.png);
+	-moz-mask-image: url(assets/img/Peepals_helping_pee_mask.png);
+	mask-image: url(assets/img/Peepals_helping_pee_mask.png);
+}
+@mixin light-dark-grey-font {
+	color: $peepal-lightgrey;
+	text-shadow: 0px 0px 1px $peepal-darkgrey;
+	@include margin-centered;
+	font-family: $peepal-font;
+	text-align: center;
+}
+@mixin absolute-center-text {
+	position: absolute;
+	@include margin-centered;
+	text-align: center;
+}
+@mixin login-input {
+	font-size: 18px;
+	width: 100%;
+	height: 50px;
+	color: $peepal-lightgrey;
+	line-height: 15px;
+}
+@mixin btn-danger-font {
+	font-size: 24px;
+	width: 100%;
+	height: 50px;
+	color: $peepal-darkgrey;
+	font-weight: bold;
+}
+@mixin now-text {
+	font-size: 30px;
+	line-height: 25px;
+	color: $peepal-lightgrey;
+	text-shadow: 0px 0px 1px $peepal-lightgrey;
+}
+@mixin avatar-frame-img {
+	width: 90px;
+	height:90px;
+	-webkit-border-radius: 60px; /* Saf3+, Chrome */
+	border-radius: 60px; /* Opera 10.5, IE 9 */
+	/*-moz-border-radius: 30px; Disabled for FF1+ */
+}
+@mixin round-title-bg {
+	background: $peepal-lightgrey;
+	color: $peepal-darkgrey;
+	box-shadow: 5px 5px 5px $peepal-darkgrey;
+}
+@mixin login-text {
+	margin-top: 0px;
+	font-size: 24px;
+	@include light-dark-grey-font;
+}
+
+
+.row {
+	padding-top: 25px;
+}
+body {
+	padding-top: 60px !important;
+}
+
+.peepal-navbar {
+	background-color: $peepal-green; 
+	height: 64px;
+}
+.peepal-logo {
+	margin-top: 20px;
+	display: block; 
+	width: 120px; 
+	height: 40px;
+	text-align: center;
+	float: none;
+	
+	@include margin-centered;
+}
+.peepal-signout-btn {
+	margin-top: -30px;
+	margin-right: 10px; 
+	margin-left: 100px;
+	width: 25px; 
+	height: 25px;
+	text-align: right;
+	float: right;
+}
+.peepal-location-bg {	
+	padding: 5px 20px; 
+	font-size: 15px;
+	border-radius: 25px;
+	
+	@include round-title-bg;
+	@include center-upper-font;
+	@include grey-gradient;
+}
+.peepal-myAvatar-frame {
+	width: 65px;
+	height:65px;
+	border: 7px solid $peepal-lightgrey;
+	
+	@include margin-centered;
+}
+.peepal-myAvatar-frame,.myAvatar-frame img {
+	width: 65px;
+	height:65px;
+	-webkit-border-radius: 50px; /* Saf3+, Chrome */
+	border-radius: 50px; /* Opera 10.5, IE 9 */
+	/*-moz-border-radius: 30px; Disabled for FF1+ */
+}
+
+.peepal-profile {
+	text-align:center;
+	
+	@include margin-centered;
+}
+.peepal-profile-id {
+	margin-top: 15px;	
+	font-size: 18px;
+	color: $peepal-lightgrey;
+	text-shadow: 0px 0px 1px $peepal-darkgrey;
+	
+	@include bold-center-upper-font;
+}
+.peepal-profile-status {
+	margin-top: 15px;	
+	padding: 5px 7px; 
+	width: 110px;
+	font-size: 11px;
+	border-radius: 25px;
+	
+	@include round-title-bg;
+	@include bold-center-upper-font;
+	@include grey-gradient;
+}
+.peepal-star {
+	margin-top: 15px;	
+	text-align:center;
+	
+	@include margin-centered;
+}
+.peepal-num {
+	margin-top: -30px;
+	font-size: 18px;
+	color: $peepal-darkgrey;
+	text-shadow: 0px 0px 1px $peepal-darkgrey;
+	
+	@include bold-center-upper-font;
+}
+.peepal-userNum {
+	margin-top: 15px;	
+	font-size: 18px;
+	color: $peepal-yellow;
+	text-shadow: 0px 0px 1px $peepal-darkgrey;
+	
+	@include bold-center-upper-font;
+}
+
+.peepal-avatar-frame {	
+	border: 7px solid $peepal-green;
+	
+	@include margin-centered;
+}
+.peepal-avatar-frame,.avatar-frame img {
+	@include avatar-frame-img;
+}
+.peepal-ending-space {
+	height: 150px
+}
+
+.peepal-peebtn {
+	width: 75px;
+	height: 75px;
+	margin-right: auto; 
+	margin-left: -37px;
+	
+	position:fixed;
+	bottom: 10px;
+	left: 50%;
+}
+
+/* login */
+
+#inputEmail {
+	@include login-input;
+}
+#inputPassword {
+	@include login-input;
+}
+.btn {
+	@include btn-danger-font;
+	
+	
+	background: 	-webkit-linear-gradient($peepal-yellow, #999900); /* For Safari */
+	background: 	-o-linear-gradient($peepal-yellow, #999900); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient($peepal-yellow, #999900); /* For Firefox 3.6 to 15 */
+	background: 	linear-gradient($peepal-yellow, #999900); /* Standard syntax (must be last) */
+	
+}
+
+.btn:hover, .btn:focus {
+	background-position-y: 0px;
+}
+.peepal-forgot-pw {
+	font-style: italic;
+	
+	@include login-text;
+}
+.peepal-login-logo {
+	@include login-text;
+}
+.peepal-login-letYouPee {
+	margin-bottom: 25px;
+	
+	@include login-text;
+}
+.peepal-login-havent {
+	font-style: italic;
+	
+	@include login-text;
+}
+.btn-danger {
+	margin-top: 15px;
+	margin-bottom: 50px;
+	
+	
+	background: -webkit-linear-gradient(#cc3333, #660000); /* For Safari */
+	background: -o-linear-gradient(#cc3333, #660000); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#cc3333, #660000); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#cc3333, #660000); /* Standard syntax (must be last) */
+	
+	
+	@include btn-danger-font;
+}
+
+
+/* loading */
+
+.peepal-loading-logo {	
+	margin-bottom: 75px;
+	text-align: center;
+	
+	@include margin-centered;
+}
+
+/* checkin */
+.peepal-checkin-good {
+	margin-top: 15px;
+	font-size: 24px;
+	line-height: 20px;
+	color: $peepal-yellow;
+	text-shadow: 0px 0px 1px $peepal-lightgrey;
+	
+	@include bold-center-upper-font;
+}
+.peepal-checkin-welcome {
+	margin-top: 0px;
+	font-size: 15px;
+	line-height: 15px;
+	color: $peepal-lightgrey;
+	text-shadow: 0px 0px 1px $peepal-lightgrey;
+	
+	@include center-upper-font;
+}
+.peepal-checkin-pin {
+	margin-top: 0px;	
+	text-align: center;
+	
+	@include margin-centered;
+}
+.form-search {
+	height: 35px;
+	border-radius: 40px;
+	-webkit-border-radius: 40px;
+}
+.peepal-checkin-location {
+	padding: 5px 20px; 
+	font-size: 15px;
+	border-radius: 25px;
+
+	@include round-title-bg;
+	@include center-upper-font;
+	@include grey-gradient;
+}
+
+/* helping */
+.peepal-helping-avatar {	
+	text-align: center;
+	
+	@include margin-centered;
+}
+
+.peepal-helping-circle {
+	margin-top: 25px;	
+	z-index: 1;
+	
+	@include absolute-center-text;
+}
+.peepal-helping-cup {	
+	z-index: 5;
+	
+	@include absolute-center-text;
+}
+.peepal-helping-pee {	
+	z-index: 10;
+	
+	@include absolute-center-text;
+}
+.peepal-helping-pee-mask {
+	margin-top: 25px;	
+	z-index: 15;
+  overflow: hidden;
+    
+	@include absolute-center-text;
+  @include helping-pee-cup;
+}
+
+.peepal-helping-now {
+	margin-top: 200px;
+	margin-bottom: 100px;
+	
+	@include now-text;
+	@include bold-center-upper-font;
+}
+
+
+/* watching */
+.peepal-watching-circle {
+	margin-top: 25px;	
+	z-index: 1;
+	
+	@include absolute-center-text;
+}
+.peepal-watching-cup {	
+	z-index: 5;
+	
+	@include absolute-center-text;
+}
+.peepal-watching-pee {	
+	z-index: 10;
+	
+	@include absolute-center-text;
+}
+.peepal-watching-pee-mask {
+	margin-top: 25px;	
+	z-index: 15;
+  overflow: hidden;
+    
+	@include absolute-center-text;
+  @include helping-pee-cup;
+}
+
+
+.peepal-watching-avatar {
+	margin-top: 175px;	
+	text-align: center;
+	
+	@include margin-centered;
+}
+.peepal-watching-avatar-frame {
+	margin-top: 175px;	
+	border: 7px solid $peepal-green;
+	
+	@include margin-centered;
+}
+.peepal-watching-avatar-frame,.watching-avatar-frame img {
+	@include avatar-frame-img;
+}
+
+.peepal-watching-avatar2 {	
+	text-align: center;
+	
+	@include margin-centered;
+}
+.peepal-watching-avatar-frame2 {	
+	border: 7px solid $peepal-green;
+	background-color: $peepal-lightgrey;
+	
+	@include margin-centered;
+}
+.peepal-watching-avatar-frame2,.watching-avatar-frame2 {
+	margin-top: 37px;
+	font-size: 24px;
+	color: $peepal-darkgrey;
+	text-shadow: 0px 0px 1px $peepal-darkgrey;
+	
+	@include avatar-frame-img;
+	@include bold-center-upper-font;
+}
+.peepal-watching-now {
+	margin-top: 25px;
+	margin-bottom: 100px;
+	
+	@include now-text;
+	@include bold-center-upper-font;
+}
+
+
+
+
+
+

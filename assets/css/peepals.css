@@ -1,0 +1,478 @@
+.row {
+  padding-top: 25px; }
+
+body {
+  padding-top: 60px !important; }
+
+.peepal-navbar {
+  background-color: #009999;
+  height: 64px; }
+
+.peepal-logo {
+  margin-top: 20px;
+  display: block;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  float: none;
+  margin-right: auto;
+  margin-left: auto; }
+
+.peepal-signout-btn {
+  margin-top: -30px;
+  margin-right: 10px;
+  margin-left: 100px;
+  width: 25px;
+  height: 25px;
+  text-align: right;
+  float: right; }
+
+.peepal-location-bg {
+  padding: 5px 20px;
+  font-size: 15px;
+  border-radius: 25px;
+  background: #cccccc;
+  color: #333333;
+  box-shadow: 5px 5px 5px #333333;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(#cccccc, #999999);
+  /* For Safari */
+  background: -o-linear-gradient(#cccccc, #999999);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#cccccc, #999999);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#cccccc, #999999);
+  /* Standard syntax (must be last) */ }
+
+.peepal-myAvatar-frame {
+  width: 65px;
+  height: 65px;
+  border: 7px solid #cccccc;
+  margin-right: auto;
+  margin-left: auto; }
+
+.peepal-myAvatar-frame, .myAvatar-frame img {
+  width: 65px;
+  height: 65px;
+  -webkit-border-radius: 50px;
+  /* Saf3+, Chrome */
+  border-radius: 50px;
+  /* Opera 10.5, IE 9 */
+  /*-moz-border-radius: 30px; Disabled for FF1+ */ }
+
+.peepal-profile {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto; }
+
+.peepal-profile-id {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #cccccc;
+  text-shadow: 0px 0px 1px #333333;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.peepal-profile-status {
+  margin-top: 15px;
+  padding: 5px 7px;
+  width: 110px;
+  font-size: 11px;
+  border-radius: 25px;
+  background: #cccccc;
+  color: #333333;
+  box-shadow: 5px 5px 5px #333333;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#cccccc, #999999);
+  /* For Safari */
+  background: -o-linear-gradient(#cccccc, #999999);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#cccccc, #999999);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#cccccc, #999999);
+  /* Standard syntax (must be last) */ }
+
+.peepal-star {
+  margin-top: 15px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto; }
+
+.peepal-num {
+  margin-top: -30px;
+  font-size: 18px;
+  color: #333333;
+  text-shadow: 0px 0px 1px #333333;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.peepal-userNum {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #cccc00;
+  text-shadow: 0px 0px 1px #333333;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.peepal-avatar-frame {
+  border: 7px solid #009999;
+  margin-right: auto;
+  margin-left: auto; }
+
+.peepal-avatar-frame, .avatar-frame img {
+  width: 90px;
+  height: 90px;
+  -webkit-border-radius: 60px;
+  /* Saf3+, Chrome */
+  border-radius: 60px;
+  /* Opera 10.5, IE 9 */
+  /*-moz-border-radius: 30px; Disabled for FF1+ */ }
+
+.peepal-ending-space {
+  height: 150px; }
+
+.peepal-peebtn {
+  width: 75px;
+  height: 75px;
+  margin-right: auto;
+  margin-left: -37px;
+  position: fixed;
+  bottom: 10px;
+  left: 50%; }
+
+/* login */
+#inputEmail {
+  font-size: 18px;
+  width: 100%;
+  height: 50px;
+  color: #cccccc;
+  line-height: 15px; }
+
+#inputPassword {
+  font-size: 18px;
+  width: 100%;
+  height: 50px;
+  color: #cccccc;
+  line-height: 15px; }
+
+.btn {
+  font-size: 24px;
+  width: 100%;
+  height: 50px;
+  color: #333333;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#cccc00, #999900);
+  /* For Safari */
+  background: -o-linear-gradient(#cccc00, #999900);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#cccc00, #999900);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#cccc00, #999900);
+  /* Standard syntax (must be last) */ }
+
+.btn:hover, .btn:focus {
+  background-position-y: 0px; }
+
+.peepal-forgot-pw {
+  font-style: italic;
+  margin-top: 0px;
+  font-size: 24px;
+  color: #cccccc;
+  text-shadow: 0px 0px 1px #333333;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center; }
+
+.peepal-login-logo {
+  margin-top: 0px;
+  font-size: 24px;
+  color: #cccccc;
+  text-shadow: 0px 0px 1px #333333;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center; }
+
+.peepal-login-letYouPee {
+  margin-bottom: 25px;
+  margin-top: 0px;
+  font-size: 24px;
+  color: #cccccc;
+  text-shadow: 0px 0px 1px #333333;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center; }
+
+.peepal-login-havent {
+  font-style: italic;
+  margin-top: 0px;
+  font-size: 24px;
+  color: #cccccc;
+  text-shadow: 0px 0px 1px #333333;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center; }
+
+.btn-danger {
+  margin-top: 15px;
+  margin-bottom: 50px;
+  background: -webkit-linear-gradient(#cc3333, #660000);
+  /* For Safari */
+  background: -o-linear-gradient(#cc3333, #660000);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#cc3333, #660000);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#cc3333, #660000);
+  /* Standard syntax (must be last) */
+  font-size: 24px;
+  width: 100%;
+  height: 50px;
+  color: #333333;
+  font-weight: bold; }
+
+/* loading */
+.peepal-loading-logo {
+  margin-bottom: 75px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto; }
+
+/* checkin */
+.peepal-checkin-good {
+  margin-top: 15px;
+  font-size: 24px;
+  line-height: 20px;
+  color: #cccc00;
+  text-shadow: 0px 0px 1px #cccccc;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.peepal-checkin-welcome {
+  margin-top: 0px;
+  font-size: 15px;
+  line-height: 15px;
+  color: #cccccc;
+  text-shadow: 0px 0px 1px #cccccc;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase; }
+
+.peepal-checkin-pin {
+  margin-top: 0px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto; }
+
+.form-search {
+  height: 35px;
+  border-radius: 40px;
+  -webkit-border-radius: 40px; }
+
+.peepal-checkin-location {
+  padding: 5px 20px;
+  font-size: 15px;
+  border-radius: 25px;
+  background: #cccccc;
+  color: #333333;
+  box-shadow: 5px 5px 5px #333333;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(#cccccc, #999999);
+  /* For Safari */
+  background: -o-linear-gradient(#cccccc, #999999);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#cccccc, #999999);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#cccccc, #999999);
+  /* Standard syntax (must be last) */ }
+
+/* helping */
+.peepal-helping-avatar {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto; }
+
+.peepal-helping-circle {
+  margin-top: 25px;
+  z-index: 1;
+  position: absolute;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center; }
+
+.peepal-helping-cup {
+  z-index: 5;
+  position: absolute;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center; }
+
+.peepal-helping-pee {
+  z-index: 10;
+  position: absolute;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center; }
+
+.peepal-helping-pee-mask {
+  margin-top: 25px;
+  z-index: 15;
+  overflow: hidden;
+  position: absolute;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  background: url(assets/img/Peepals_helping_pee.png);
+  -webkit-mask-image: url(assets/img/Peepals_helping_pee_mask.png);
+  -o-mask-image: url(assets/img/Peepals_helping_pee_mask.png);
+  -moz-mask-image: url(assets/img/Peepals_helping_pee_mask.png);
+  mask-image: url(assets/img/Peepals_helping_pee_mask.png); }
+
+.peepal-helping-now {
+  margin-top: 200px;
+  margin-bottom: 100px;
+  font-size: 30px;
+  line-height: 25px;
+  color: #cccccc;
+  text-shadow: 0px 0px 1px #cccccc;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+/* watching */
+.peepal-watching-circle {
+  margin-top: 25px;
+  z-index: 1;
+  position: absolute;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center; }
+
+.peepal-watching-cup {
+  z-index: 5;
+  position: absolute;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center; }
+
+.peepal-watching-pee {
+  z-index: 10;
+  position: absolute;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center; }
+
+.peepal-watching-pee-mask {
+  margin-top: 25px;
+  z-index: 15;
+  overflow: hidden;
+  position: absolute;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  background: url(assets/img/Peepals_helping_pee.png);
+  -webkit-mask-image: url(assets/img/Peepals_helping_pee_mask.png);
+  -o-mask-image: url(assets/img/Peepals_helping_pee_mask.png);
+  -moz-mask-image: url(assets/img/Peepals_helping_pee_mask.png);
+  mask-image: url(assets/img/Peepals_helping_pee_mask.png); }
+
+.peepal-watching-avatar {
+  margin-top: 175px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto; }
+
+.peepal-watching-avatar-frame {
+  margin-top: 175px;
+  border: 7px solid #009999;
+  margin-right: auto;
+  margin-left: auto; }
+
+.peepal-watching-avatar-frame, .watching-avatar-frame img {
+  width: 90px;
+  height: 90px;
+  -webkit-border-radius: 60px;
+  /* Saf3+, Chrome */
+  border-radius: 60px;
+  /* Opera 10.5, IE 9 */
+  /*-moz-border-radius: 30px; Disabled for FF1+ */ }
+
+.peepal-watching-avatar2 {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto; }
+
+.peepal-watching-avatar-frame2 {
+  border: 7px solid #009999;
+  background-color: #cccccc;
+  margin-right: auto;
+  margin-left: auto; }
+
+.peepal-watching-avatar-frame2, .watching-avatar-frame2 {
+  margin-top: 37px;
+  font-size: 24px;
+  color: #333333;
+  text-shadow: 0px 0px 1px #333333;
+  width: 90px;
+  height: 90px;
+  -webkit-border-radius: 60px;
+  /* Saf3+, Chrome */
+  border-radius: 60px;
+  /* Opera 10.5, IE 9 */
+  /*-moz-border-radius: 30px; Disabled for FF1+ */
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.peepal-watching-now {
+  margin-top: 25px;
+  margin-bottom: 100px;
+  font-size: 30px;
+  line-height: 25px;
+  color: #cccccc;
+  text-shadow: 0px 0px 1px #cccccc;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold; }
